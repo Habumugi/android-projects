@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tbr"
+        android:background="@color/colorAccent">
+        </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"></android.support.v7.widget.LinearLayoutCompat>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="55dp"
+       android:text="LOG IN PAGE"
+       android:fontFamily="sans-serif"
+       android:textAlignment="center"
+       android:textFontWeight="bold"
+       android:textSize="30dp"
+       android:textColor="#fff"
+       />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/manager"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/work1"
+        android:text="MANAGER"
+        android:layout_marginTop="60dp"
+        android:textSize="27dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/work"
+        android:text="maneging post is more important in odrder working well. "
+        android:layout_marginTop="100dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/account"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/work2"
+        android:text="ACCOUNTANT"
+        android:layout_marginTop="200dp"
+        android:textSize="27dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/work3"
+        android:text="maneging company's properties is most important by knowing profit of company. "
+        android:layout_marginTop="235dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/human"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/work4"
+        android:text="HUMAN RESOURCES"
+        android:layout_marginTop="370dp"
+        android:textSize="27dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/work5"
+        android:text="organising workers is another part where worker knows his/her saraly.. "
+        android:layout_marginTop="430dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"/>
+</RelativeLayout>

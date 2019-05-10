@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tbr"
+        android:background="@color/colorAccent">
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9eb"
+        android:layout_marginTop="57dp"></android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/reg"
+        android:text="REGISTOR PAGE"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textFontWeight="bold"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:layout_marginTop="200dp"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginLeft="60dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="password"
+        android:layout_marginTop="280dp"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginLeft="60dp"/>
+
+   <Button
+       android:id="@+id/btn"
+       android:layout_width="180dp"
+       android:layout_height="50dp"
+       android:layout_marginTop="350dp"
+       android:layout_marginLeft="100dp"
+       android:background="#097"
+       android:text="REGIST"
+       android:textSize="25dp"/>
+
+</RelativeLayout>
